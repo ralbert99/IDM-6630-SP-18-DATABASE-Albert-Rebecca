@@ -1,3 +1,13 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Rebecca's Top 10 Albums</title>
+    <link rel='stylesheet' href='css/style.css'>
+  </head>
+
+</html>
+
 <?php
 
   echo "<h1>Rebecca Albert's Top 10 Albums</h1>";
@@ -23,13 +33,8 @@
 
   $query = "SELECT * FROM albums";
 
-  echo "<ol>";
-
   foreach ($conn->query($query) as $album) {
-    echo "<li>" . $album['Title'] .  ": " . $album['Artist'] . " " . $album['Year'] . " " . $album['Cover'] . "</li>";
+    echo "<div> <h1>" . $album['Title'] .  "</h1> <h2>" $album['Artist'] . ": " . $album['Year'] . "</h2> <img src=" . $album['Cover'] . "> </div>";
   }
-
-  echo "</ol>"
-
 
 ?>

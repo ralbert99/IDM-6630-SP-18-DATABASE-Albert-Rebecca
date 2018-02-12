@@ -46,7 +46,7 @@ CREATE TABLE `albums` (
 
 LOCK TABLES `albums` WRITE;
 /*!40000 ALTER TABLE `albums` DISABLE KEYS */;
-INSERT INTO `albums` VALUES (1,'The Wall','Pink Floyd','1979',''),(2,'Sound of Change','Dirty Heads','2014',''),(3,'For a Moment, I Was Lost','Amber Run','2017',''),(4,'Away From the Sun','3 Doors Down','2002',''),(5,'The Truth About Love','P!nk','2012',''),(6,'Badlands','Halsey','2015',''),(7,'Fuse','Keith Urban','2013',''),(8,'The Incredible Machine','Sugarland','2010',''),(9,'Our Own House','Misterwives','2015',''),(10,'VHS 2.0','X Ambassadors','2016','');
+INSERT INTO `albums` VALUES (1,'The Wall','Pink Floyd','1979','https://images-na.ssl-images-amazon.com/images/I/71jxpq0Lk5L._SL1080_.jpg'),(2,'Sound of Change','Dirty Heads','2014','https://images-na.ssl-images-amazon.com/images/I/71OmP%2BADF0L._SL1500_.jpg'),(3,'For a Moment, I Was Lost','Amber Run','2017','https://poppedmusic.files.wordpress.com/2017/02/packshot-famiwl.jpg'),(4,'Away From the Sun','3 Doors Down','2002','https://images-na.ssl-images-amazon.com/images/I/51LsrZqYpYL.jpg'),(5,'The Truth About Love','P!nk','2012','https://is3-ssl.mzstatic.com/image/thumb/Music/v4/e1/48/d4/e148d4f3-f555-e31d-0e84-48a73ecdc7b8/886443562097.jpg/1200x630bb.jpg'),(6,'Badlands','Halsey','2015','https://is2-ssl.mzstatic.com/image/thumb/Music1/v4/59/a6/e4/59a6e415-2dbc-14ee-9c4e-072eca01f51a/UMG_cvrart_00602547360335_01_RGB72_1500x1500_15UMGIM28494.jpg/1200x630bb.jpg'),(7,'Fuse','Keith Urban','2013','https://is3-ssl.mzstatic.com/image/thumb/Music4/v4/5b/f5/3d/5bf53d9d-7566-6217-0840-17aeb162adcd/UMG_cvrart_00602537524655_01_RGB72_1500x1500_13UAAIM69063.jpg/1200x630bb.jpg'),(8,'The Incredible Machine','Sugarland','2010','https://images-na.ssl-images-amazon.com/images/I/81XvfZxK2uL._SL1500_.jpg'),(9,'Our Own House','Misterwives','2015','https://www.billboard.com/files/misterwives-our-own-house-album-cover-2015-billboard-650x650.jpeg'),(10,'VHS 2.0','X Ambassadors','2016','https://is4-ssl.mzstatic.com/image/thumb/Music30/v4/40/9b/63/409b63e0-deb6-ddd4-247e-82ec0c76c8a8/UMG_cvrart_00602547936363_01_RGB72_1800x1800_16UMGIM32070.jpg/1200x630bb.jpg');
 /*!40000 ALTER TABLE `albums` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -86,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-02-12  5:25:53
+-- Dump completed on 2018-02-12  6:05:01
